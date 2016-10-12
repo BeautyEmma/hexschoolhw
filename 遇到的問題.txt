@@ -1,0 +1,33 @@
+1. rwd.css
+
+第153行:
+.content img {
+      padding-left: 50px;
+    }
+
+為什麼我在style.css(第167~172行)設定的
+
+.content img {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+}
+
+置中設定，在這邊會失效，我需要設定padding-left才能強迫把他寫到中間去呢?
+
+2. 
+style.css
+第145行:
+.content li{
+	float: left;
+	width: 30%;
+              height: 340px; /* 為什麼這裡如果是設定%數就會消失效力? */
+	border: 0px solid red;
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-top: 50px;
+	box-shadow: 3px 3px 8px gray;
+}
+
+為什麼height的部分如果不是用px寫死就會失效呢?
